@@ -1,4 +1,4 @@
-class Demo {
+public class Demo {
     static int co = 0;
     {
         co++;
@@ -10,7 +10,7 @@ public class ObjCou {
         Demo d1 = new Demo();
         Demo d2 = new Demo();
         Demo d3 = new Demo();
-        System.out.println("obj" + Demo.co);
+        System.out.println("obj: " + Demo.co);
 
     }
 }
