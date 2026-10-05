@@ -1,10 +1,12 @@
 package track.MO5.Encapsulation;
 
-class Book {
+class Book1 {
     private int pgNo;
 
     public void setData(int x) {
-        pgNo = x;
+        if (x > 0) {
+            pgNo = x;
+        }
     }
 
     public void getData() {
@@ -12,9 +14,9 @@ class Book {
     }
 }
 
-public class BookApp {
+public class BookAppVer2 {
     public static void main(String[] args) {
-        Book b = new Book();
+        Book1 b = new Book1();
         // b.pgNo = 100;
         b.setData(-100);
         b.getData();
