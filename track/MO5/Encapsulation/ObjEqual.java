@@ -45,6 +45,7 @@ public class ObjEqual {
             s3.display();
             System.out.println(s1.equals(s2));
             System.out.println(s1.equals(s3));
+            System.out.println(s1.getClass());
 
         }
 
